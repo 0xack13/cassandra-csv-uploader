@@ -17,3 +17,6 @@ CREATE KEYSPAEC inquirykeyspace
 
 Now, to the run the python uploader script:
 `python cassandraCsvUploader.py`
+
+Another way to upload the CSV file is to use the `copy` command in the CQLSH:
+`COPY inquirykeyspace.supportticket (id, name, class) FROM 'data.csv';`
