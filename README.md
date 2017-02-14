@@ -15,3 +15,5 @@ CREATE KEYSPAEC inquirykeyspace
 
 `use inquirykeyspace`
 
+Now, to the run the python uploader script:
+`python cassandraCsvUploader.py`
